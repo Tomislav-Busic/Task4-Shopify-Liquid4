@@ -32,6 +32,7 @@ section {
   padding: 0px;
   gap: 96px;
   max-width: 1312px;
+  width: 100%;
   min-height: 216px;
 
   /*test*/
