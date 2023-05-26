@@ -51,6 +51,14 @@ section .container .item {
 }
 
 section .container .item .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 64px;
   height: 64px;
+}
+
+section .container .item .image .image-place {
+  width: 36px;
+  height: 36px;
 }
