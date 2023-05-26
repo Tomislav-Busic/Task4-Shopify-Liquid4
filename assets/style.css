@@ -59,6 +59,18 @@ section .container .item .image {
 }
 
 section .container .item .image .image-place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+}
+
+section .container .item:nth-child(2) .image .image-place {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   width: 36px;
   height: 36px;
 }
