@@ -49,3 +49,8 @@ section .container .item {
   width: 256px;
   min-height: 180px;
 }
+
+section .container .item .image {
+  width: 64px;
+  height: 64px;
+}
