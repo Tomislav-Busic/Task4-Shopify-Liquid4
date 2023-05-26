@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  gap: 48px;
+  position: relative;
+  max-width: 1440px;
+  min-height: 344px;
+  background: #f5f1ec;
+
+  /*test*/
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 96px;
+  max-width: 1312px;
+  min-height: 216px;
+
+  /*test*/
+  border: 1px solid black;
+}
