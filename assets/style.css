@@ -21,9 +21,6 @@ section {
   max-width: 1440px;
   min-height: 344px;
   background: #f5f1ec;
-
-  /*test*/
-  border: 1px solid black;
 }
 
 section .container {
@@ -33,11 +30,7 @@ section .container {
   padding: 0px;
   gap: 96px;
   max-width: 1312px;
-  width: 100%;
   min-height: 216px;
-
-  /*test*/
-  border: 1px solid black;
 }
 
 section .container .item {
